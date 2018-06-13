@@ -1,0 +1,84 @@
+﻿.container{
+    display:grid;
+    grid-column-gap:15px;
+    grid-row-gap:15px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, fr) ;
+    width:1000px;
+    height:600px;
+    margin:auto auto;
+
+}
+.c1{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color:lawngreen;
+}
+.c2 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: lawngreen;
+}
+.c3 {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    background-color: lawngreen;
+}
+.c4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: lawngreen;
+}
+.c5 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    background-color: lawngreen;
+}
+.c6 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    background-color: lawngreen;
+}
+.c7 {
+    grid-column: 1 / span 3;
+    background-color:lawngreen;
+}
+.c8  {
+    grid-column: 4 / span 3;
+    background-color: lawngreen;
+}
+.c9{
+    grid-column: 7 / span 3;
+    background-color:lawngreen;
+}
+.c10 {
+    grid-column: 10 / span 3;
+    background-color: lawngreen;
+}
+.c11{
+    grid-column: 1 / span 2;
+    background-color:lawngreen;
+}
+.c12{
+    grid-column: 3 / span 2;
+    background-color:lawngreen;
+}
+.c13 {
+    grid-column:5 /span 2;
+    background-color:lawngreen;
+}
+.c14{
+    grid-column: 7 /span 2;
+    background-color:lawngreen;
+}
+.c15{
+    grid-column:9 / span 2;
+    background-color:lawngreen;
+}
+.c16 {
+    grid-column: 11 / span 2;
+    background-color: lawngreen;
+}
+.c17, .c18, .c19, .c20, .c21, .c22, .c23, .c24, .c25, .c26, .c27, .c28{
+    background-color:lawngreen;
+}

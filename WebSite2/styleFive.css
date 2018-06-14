@@ -1,0 +1,36 @@
+﻿.container{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr;
+    height:800px;
+    width:1000px;
+    margin:auto auto;
+    grid-gap:15px;
+
+}
+.h {
+    grid-column: 1 /span 2;
+    background-color: lime;
+    border: 10px solid black;
+}
+.n {
+    grid-column 1/span 1;
+    background-color: lime;
+    grid-row: 2/span 2;
+    border: 10px solid black;
+}
+.a {
+    grid-column: 2/span1;
+    background-color: lime;
+    border: 10px solid black;
+}
+.ad {
+    grid-column: 2/span1;
+    background-color: lime;
+    border: 10px solid black;
+}
+.fo {
+    grid-column: 1/span2;
+    border: 10px solid black;
+    background-color: lime;
+}

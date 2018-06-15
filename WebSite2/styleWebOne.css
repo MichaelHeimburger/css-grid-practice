@@ -1,0 +1,49 @@
+﻿.container{
+    display:grid;
+    width: 90%;
+    height:1000px;
+    margin: auto auto;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr 1fr 1.75fr 1.5fr 1fr;
+    grid-gap: 15px;
+
+}
+.header{
+    grid-column:1 /span2 ;
+    background-color:lightblue;
+}
+.hero{
+    grid-row:2 span 1;
+   background-color:pink;
+}
+.main-content{
+    grid-column:2 /span 2;
+    grid-row:2 /span 2;
+    background-color:yellow;
+}
+.sidebar{
+    grid-row:3 /span 2;
+    
+    background-color:lawngreen;
+}
+.extra-content{
+    grid-row:4 ;
+    grid-column:2 /span 2;
+    background-color: dimgrey;
+}
+.related-images{
+    background-color:mediumspringgreen;
+    grid-row:5;
+    grid-column:1 /span 2;
+
+}
+.related-posts{
+    background-color:lightpink;
+    grid-column:3;
+    grid-row:5;
+}
+.footer{
+    background-color:orange;
+    grid-row:6;
+    grid-column:1 /span 3;
+}
